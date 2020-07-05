@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: roboto;
+    src: url('assets/Roboto-Regular.ttf');
+}
+
+body {
+    color: gray;
+    font-family: roboto;
+    margin: 0; padding: 0; border: 0; 
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.avatar {
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.selected-answer {
+    color: green;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.active {
+    font-weight: 800;;
+}
+
+.total-points {
+    font-weight: 800;
+    color: green;
+}
+
+.form-check-dashed {
+    border: 1px dashed gray;
+}
+
+.question-tabs {
+    display: inline-flex;
+    font-weight: 700;
+    color: gray;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+.question-tabs-active {
+    color: green;
+    font-weight: 700;
+}
+
+.nav-var-question-tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-not-found-icon {
+    width: 100%;
+}
+
+.center-icon {
+    color: gray;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.navbar-icon {
+    margin-top: -5px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.navbar {
+    margin-top:2px;
+}
+
+.form-poll {
+    margin-top: 20px;
+}
+
+.form-poll button {
+    margin-top: 20px;
+}
